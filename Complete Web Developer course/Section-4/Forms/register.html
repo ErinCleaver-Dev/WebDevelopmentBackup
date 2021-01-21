@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register</title>
+</head>
+<body>
+    <a href="index.html">main page</a><br>
+
+
+    <form method="POST">
+
+        First name: <input type="text" name="firstname"><br>
+        Last Name: <input type="text" name="lastname"><br>
+        Email: <input type="email" required name="email"><br>
+        Password: <input type="password" min="12" max="24" required name="password"><br>
+        Birthday: <input type="date" name="bithday"><br>
+        Gender: <br>
+        <input type="radio" name="male" value="male">Male<br>
+        <input type="radio" name="female" value="female">Female<br>
+        <input type="radio" name="other" value="other">Other<br>
+        Pets: <br>
+        <input type="checkbox" name="cat"> Cat
+        <input type="checkbox" name="dog"> Dog
+        Cars: <br>
+        <select name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="Audi">Audi</option>
+        </select>
+        <br>
+        <input type="submit" value="Register">
+        <input type="reset">
+    </form>
+
+
+</body>
+</html>
