@@ -7,15 +7,29 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html" >Main Page</a></li>
-            <li><a href="about.html">About US</a></li>
-            <li><a href="registration.html">Create New Profile</a></li>
-            <li><a href="login.html">Login</a></li>
-            <li id="contctus" class="disabled"><a href="contactus.html">Contact US</a></li>
-        </ul>
-    </nav>
+    <div class="container"> 
+        <nav>
+            <ul>
+                <li><a href="index.html" >Main Page</a></li>
+                <li><a href="about.html">About US</a></li>
+                <li><a href="registration.html">Create New Profile</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li id="contctus" class="disabled"><a href="contactus.html">Contact US</a></li>
+            </ul>
+        </nav>
+        <img class="logo" src="Logo.jpg">
+        <h4>
+            <p class="companyName">Freshly Brewed Coffie</p>
+        </h4>
+        <div id="contactus">
+            <form  method="_GET">
+                <p><label>name: </label><input type="text" name="name"></p>
+                <p><label>email: </label><input type="email" name="email"></p>
+                <p><button type="submit">Submit</button><p>
+            </form>
+        </div>
+    </div>
+
 
 </body>
 </html>

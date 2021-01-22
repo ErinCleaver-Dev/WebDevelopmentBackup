@@ -1,3 +1,34 @@
+body {
+  margin: auto 0;
+  padding: 0;
+}
+
+.container {
+  width: 800px;
+  align-items: center;
+  margin: auto;
+  padding-bottom: 1em;
+  background-color: rgb(225, 233, 236);
+  height: 100%;
+}
+
+p {
+  padding: .05em;
+  padding-left: 2em;
+  
+}
+
+form p {
+ padding: 2px;
+ padding-left: 2em;
+ margin: 0;
+}
+
+label {
+  width: 100px;
+  display: inline-block;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -37,5 +68,54 @@ li a:hover:not(.active) {
   pointer-events: none;
   cursor: default;
   background-color: rgb(46, 56, 56);
+}
+
+#banner {
+  height: 60%;
+  width: 100%;
+}
+
+.imagePostion {
+  position: relative;
+  text-align: center; 
+}
+
+.logo {
+  position: relative;
+  padding: .5em;
+  padding-bottom: 0;
+  left: 45%;
+  height: 80px; 
+  width: 80px;
+}
+
+#bannerText {
+  position: absolute;
+  left: 40%;
+  top: 20%;
+  font-size: 3.5em;
+  color: aqua;
+}
+
+.companyName {
+  text-align: center;
+}
+
+button {
+  padding: 4px;
+
+}
+input {
+  padding: 2px;
+}
+
+#loginBox, #contactus {
+  border-radius: 25px;
+  border: 2px solid black;
+  width: 300px;
+  background-color: white;
+  position: relative;
+  left: 34%;
+  
 }
 
