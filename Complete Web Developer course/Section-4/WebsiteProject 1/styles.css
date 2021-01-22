@@ -1,0 +1,41 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(67, 88, 18);
+  }
+  
+nav li {
+  float:left;
+  margin: 0;
+  padding: 0;
+  border-right:4px solid rgb(142, 137, 192);
+}
+nav li:last-child {
+  border-right: none;
+  float: right;
+  border-left: 4px soild  rgb(142, 137, 192);
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 5px;
+ 
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(40, 61, 40);
+  
+}
+
+.disabled {
+  pointer-events: none;
+  cursor: default;
+  background-color: rgb(46, 56, 56);
+}
+
