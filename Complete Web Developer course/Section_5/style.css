@@ -1,7 +1,38 @@
+* {
+    text-align: right;
+}
+
 h2 {
-    color: red;
+    color: rgb(21, 226, 114);
+    text-align: center;
+    border: 5px dashed rgb(63, 35, 70);
+    background-color: teal;
+    cursor: pointer;
 }
 
 p {
-    color: pink;
+    color: rgb(77, 60, 82);
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext {
+    border: 5px dashed green;
+}
+
+#content {
+    background-color: rgb(160, 168, 214, 0.5);
+}
+
+#alignLeft {
+    background-color: rgba(194, 153, 177, 0.5);
+
 }
