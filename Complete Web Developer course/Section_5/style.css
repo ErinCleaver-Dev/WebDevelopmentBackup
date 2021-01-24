@@ -12,8 +12,26 @@ h2 {
 
 p {
     color: rgb(77, 60, 82);
+    line-height: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 80%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+
 }
 
+
+img {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+footer {
+    clear:both;
+    text-align: center;
+}
 body {
     background-image: url(background.jpg);
     background-size: cover;
